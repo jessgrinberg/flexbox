@@ -35,9 +35,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	min-height: 100vh; /*takes up the full page height*/
 
 	/*Step 2: direction*/
-	/*flex-direction: row;*/ /*default*/
-	flex-direction: column; /*stack vertically*/
-	flex-direction: column-reverse;
+	/*flex-direction: row; *//*default*/
+	/*flex-direction: column; *//*stack vertically*/
+	/*flex-direction: column-reverse;*/
+
+	/*flex-wrap: nowrap; *//*default*/
+	flex-wrap: wrap;
+	/*flex-wrap: wrap-reverse;*/
+}
+
+.box {
+	width: calc(33.333333% - 20px); /*20px for 10px margin each side*/
+	margin: 10px;
 }
 
 
