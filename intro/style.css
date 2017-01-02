@@ -32,6 +32,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
 	display: flex; /*1 => goes all the way accross*/
 	border: 10px solid goldenrod;
-	height: 100vh; /*takes up the full page height*/
+	min-height: 100vh; /*takes up the full page height*/
+
+	/*Step 2: direction*/
+	/*flex-direction: row;*/ /*default*/
+	flex-direction: column; /*stack vertically*/
+	flex-direction: column-reverse;
 }
+
+
 
