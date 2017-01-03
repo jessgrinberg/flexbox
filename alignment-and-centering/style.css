@@ -33,18 +33,39 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   /*justify-content: flex-start;*/
   /*justify-content: flex-end;*/
-  justify-content: center;
+ /* justify-content: center;*/
  /* justify-content: space-between;*/
 /*  flex-direction: column;*/
  /* justify-content: space-around;*/
   height: 100vh;
   border: 10px solid mistyrose;
-  flex-wrap: wrap; /*align-content needs a wrap otherwise it doesnt take effect*/
- /* align-item: flex-start | flex-end | center | baseline;*/ /*needs a height to work*/
+
+  /*flex-wrap: wrap;*/ /*align-content needs a wrap otherwise it doesnt take effect*/
+ /* align-items: flex-start | flex-end | center | baseline;*/ /*needs a height to work*/
  /* align-content: flex-start | flex-end | stretch | center | space-around | space-between | ;*/
- align-content: center;
+ 
+  align-items: flex-start;
 }
 
 .box {
   width: 33.33%;
+}
+
+.box2 {
+  padding-bottom: 200px;
+  align-self: center;
+}
+
+.box4{
+  align-self: baseline;
+}
+
+.box6 {
+  padding-bottom: 0;
+  align-self: stretch;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self: flex-end;
 }
