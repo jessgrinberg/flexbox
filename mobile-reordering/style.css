@@ -93,4 +93,11 @@ section, footer {
   .flex-nav li {
     flex-basis:100%;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .
 }
