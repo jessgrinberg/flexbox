@@ -45,13 +45,16 @@ a:hover {
 /*our first flex item*/
 .slider-nav li {
   flex: 2; /*this is flex item -ish*/
-  border: 1px solid red;
   text-align: center;
   display: flex; /*this is flex container -ish*/
 }
 
 .slider-nav .arrow {
   flex: 1;
+}
+
+.arrow a {
+  font-size: 30px;
 }
 
 .slider-nav a {
