@@ -55,7 +55,14 @@ a:hover {
 }
 
 .slider-nav a {
+  flex-basis:100%;
+  display: flex;
+  align-items: center;
+  /*we want to stretch as well and center*/
+}
+
+ /*this is flex item of 'a' container*/
+.slider-nav span {
   display: block;
   width: 100%;
-  align-items: center;
 }
