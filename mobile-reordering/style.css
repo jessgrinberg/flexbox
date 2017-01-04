@@ -115,5 +115,23 @@ section, footer {
 
   .flex-nav ul {
     display: none;
+     max-height:0;
+  }
+
+  .flex-nav ul.open {
+    display: flex;
+    max-height:500px;
+  }
+
+  .top {
+    order: 2;
+  }
+
+  .details {
+    order: 3;
+  }
+
+  .signup {
+    order: 4;
   }
 }
