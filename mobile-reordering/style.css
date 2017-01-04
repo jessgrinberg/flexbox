@@ -114,13 +114,14 @@ section, footer {
   }
 
   .flex-nav ul {
-    display: none;
-     max-height:0;
+    display: none;    
+
   }
 
   .flex-nav ul.open {
     display: flex;
-    max-height:500px;
+    background-color: orange;
+    transition: background .5s;
   }
 
   .top {
