@@ -63,3 +63,9 @@ a {
 }
 
 /*Flexbox Starts Here*/
+
+.cover {
+  display: flex;
+  justify-content:center; /*center horizontally*/
+  align-items:center; /*center vertically*/
+}
