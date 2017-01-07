@@ -113,6 +113,18 @@ a.button {
 }
 
 /*
+  Header
+*/
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/*
   Content
 */
 
